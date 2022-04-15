@@ -1,28 +1,102 @@
 /* Resets the box size of every element on the page */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    /*find a new font style that's cool*/
-    font-family: 'Type Writer', Arial, sans-serif;
-  }
-  
-/* body | background color*/
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*animiation | color scheme*/ 
+@keyframes colors {
+   0%  {background-color: #b3cde0;}
+  25%  {background-color: #6497b1;}
+  50%  {background-color: #005b96;}
+  75%  {background-color: #03396c;}
+  100% {background-color: #b3cde0;}
+}
+
+/* body | background animation & color*/
 body {
-    background-color: #c4e9fb;
+  background-color:#03396c;
 }
 
-/*header*/
-.header {
-    padding: 20px;
-    background-color: #2a607c;
-    color: #ffffff;
+/*header | Animation & Design*/
+.header div {
+  animation-name: colors;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  /*background-color: #ffc0a1;*/  
 }
 
-.header {
-  height: 90vh;
+.header div {
+  height: 15vh;
   background-size: cover;
   background-position: top;
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
-  }
+}
+
+.header h1  {
+  font-family: 'Almarai', sans-serif;
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.main-div {
+  position: relative;
+  margin: 10px;
+  background-color: transparent;
+}
+
+.main-div1::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 50%;
+  box-shadow: 0 0 17px 3px #ffff01,0 0 4px 2px #ffff01;
+  z-index: -1;
+}
+
+.main-div1::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  height: 50%;
+  box-shadow: 0 0 17px 3px #0ff,0 0 4px 2px #0ff;
+  z-index: -1;
+}
+
+/* projects | project01*/
+.search-project01 {
+  margin-bottom:  20px;
+  padding: 50px;
+  height: 600px;
+  width: 600px;
+  border-style: double;
+  border-radius: 100px;
+  border-width: thick;
+  font-family:  'Almarai', sans-serif;
+  background-color: #ffffff;
+  color: #1110102a;
+}
+
+.search-project01:hover {
+  box-shadow: inset 0px 0px 105px blueviolet, 0 0 105px blueviolet;
+}
+
+.search-project01 img {
+  height: 400px;
+  width: 100px;
+  float: left
+}
+
+.search-project01 h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+  text-align: center;
+}
