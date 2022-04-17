@@ -25,7 +25,6 @@ body {
   animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-  /*background-color: #ffc0a1;*/  
 }
 
 .header div {
@@ -49,6 +48,7 @@ body {
   background-color: transparent;
 }
 
+/*header | yellow glow effect through name | left side*/
 .main-div1::before {
   content: '';
   position: absolute;
@@ -60,6 +60,7 @@ body {
   z-index: -1;
 }
 
+/*header | salmon glow effect through name | right side*/
 .main-div1::after {
   content: '';
   position: absolute;
@@ -72,7 +73,6 @@ body {
 }
 
 /* div container page placements */
-
 .aboutMe {
   float: left;
   margin-left: 100px;
@@ -96,8 +96,7 @@ body {
   margin-right: 100px;
 }
 
-/* projects | aboutMe*/
-
+/* aboutMe | complete styling*/
 .search-aboutMe {
   margin-bottom: 20px;
   padding: 50px;
@@ -117,8 +116,6 @@ body {
 
 .search-aboutMe img {
   height: auto;
-  /*max height of avatar image - ref only
-  height: 244px;*/
   max-width: 251px;
   float: left
 }
@@ -130,14 +127,13 @@ body {
 }
 
 p {
-  font-size: 20px;
+  font-size: 22px;
   font-family: monospace;
   text-align: center;
   color: darkslategray;
 }
 
-/* side bar projects | project01*/
-
+/* Projects - right side bar| project01 - styling*/
 .search-project01 {
   margin-bottom: 10px;
   padding: 50px;
@@ -151,13 +147,13 @@ p {
   color: darkslategray;
 }
 
-/* side bar projects | image positioning*/
-.float-right {
-  float:right;
-}
-
 .search-project01:hover {
   box-shadow: inset 0px 0px 105px #ff664a, 0 0 105px #ff664a;
+}
+
+/*project01 - image positioning [pulled from HTML]*/
+.float-right {
+  float:right;
 }
 
 .search-project01 img {
@@ -167,12 +163,11 @@ p {
 
 .search-project01 h3 {
   margin-bottom: 20px;
-  font-size: 40px;
+  font-size: 30px;
   text-align: left;
 }
 
-/* side bar projects | project02*/
-
+/* Projects - right side bar| project02 - styling*/
 .search-project02 {
   margin-bottom: 10px;
   padding: 50px;
@@ -186,7 +181,7 @@ p {
   color: darkslategray;
 }
 
-/* side bar projects | image positioning*/
+/*project02 - image positioning [pulled from HTML]*/
 .float-right {
   float:right;
 }
@@ -196,18 +191,17 @@ p {
 }
 
 .search-project02 img {
-  height: 400px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
 }
 
 .search-project02 h4 {
   margin-bottom: 20px;
-  font-size: 40px;
+  font-size: 30px;
   text-align: left;
 }
 
-/* side bar projects | project03*/
-
+/* Projects - right side bar| project03 - styling*/
 .search-project03 {
   margin-bottom: 20px;
   padding: 50px;
@@ -221,7 +215,7 @@ p {
   color: darkslategray;
 }
 
-/* side bar projects | image positioning*/
+/*project02 - image positioning [pulled from HTML]*/
 .float-right {
   float:right;
 }
@@ -231,17 +225,17 @@ p {
 }
 
 .search-project03 img {
-  height: 400px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
 }
 
 .search-project03 h5 {
   margin-bottom: 20px;
-  font-size: 36px;
+  font-size: 30px;
   text-align: left;
 }
 
-
+/*side bar projects | text styling*/
 p2 {
   font-size: 20px;
   font-family: monospace;
@@ -249,7 +243,7 @@ p2 {
   color: darkslategray;
 }
 
-/*footer*/
+/*footer | styling*/
 .footer {
   padding: 30px;
   clear: both;
@@ -259,28 +253,50 @@ p2 {
 
 .footer h6 {
   font-size: 20px;
+  color: white;
 }
 
-/*sizing adjustments for smaller displays*/
-@media only screen  and (max-width: 600px){
-  .aboutMe,
-  .projects01,
-  .projects02,
-  .projects03
-  {
-      flex-wrap:wrap;
-      margin: 0px;
-      width:auto;
-  }
-}
+/*sizing adjustments for smaller displays | stripped down version for iPhone and tablets*/
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 900px){
   .header div,
   .header h1
   {
-     background-color: #263a4d;
-     animation-name: none;
-     font-size: auto;
+     display: none;
+  }
+}
 
+@media only screen  and (max-width: 900px){
+  .aboutMe
+  {
+      margin: 0px;
+      height: max-content;
+      width: max-content;
+  }
+}
+
+@media only screen  and (max-width: 900px){
+.projects01 
+  {
+  display: inline-block;
+  margin: 0px;
+  }
+} 
+
+@media only screen  and (max-width: 900px){
+  .search-project01
+  {
+      margin: 0px;
+      height: max-content;
+      width: max-content;
+  }
+}
+
+@media only screen  and (max-width: 900px){
+  .search-project01 img,
+  .search-project02 img,
+  .search-project03 img
+  {
+      display: none;
   }
 }
