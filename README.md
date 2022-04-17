@@ -12,5 +12,5 @@
 ## User Story: AS AN employer, I WANT to view a potential employee's deployed portfolio of work samples, SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 
 ## Site
-![site] (./Assets/images/comingsoon.jpg)
+![The Timothy Mateo Murphy webpage is the beginning of the contrustion of an online portfolio. It has a simple About Me section with current and upcoming projects listed on right hand side. A link takes a user to the contact information at the bottom of the page.](./Assets/site/TimothyMateoMurphyPortfolio.jpg%2022-03-12-410.jpg)
 
