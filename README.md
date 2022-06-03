@@ -1,11 +1,11 @@
 <div id="header" align="center">
-  <img src="https://media.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif" width="500"/>
+  <img src="https://media.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif" width="700"/>
 </div>
 
 <div id="header" align="center" text-size= "24">
 <h1>
   Hi there! My name is Timothy Murphy!
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="50px"/>
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
 </h1>
 </div>
 
@@ -19,7 +19,7 @@
 Working through my full-stack coursework and working through the busy season at my job!
 
 ## 🔔 𝙼𝚢 𝙻𝚊𝚝𝚎𝚜𝚝 𝙶𝚒𝚝𝙷𝚞𝚋 𝙼𝚎𝚝𝚛𝚒𝚌𝚜
-![Metrics](https://metrics.lecoq.io/timothymateo?template=classic&base.header=0&gists=1&lines=1&config.timezone=America%2FToronto)
+![Metrics](https://metrics.lecoq.io/timothymateo?template=classic&base.indepth=false&base.hireable=false&config.timezone=America%2FChicago)
 
 ---
 

@@ -1,5 +1,3 @@
-/* Resets the box size of every element on the page */
-
 /*animiation | color scheme*/
 @keyframes colors {
   0%  {background-color: #263a4d;}
@@ -13,8 +11,6 @@
 body {
  background-color:#263a4d;
 }
-
-
 
 h1 {
  color: white;
@@ -76,7 +72,7 @@ a.nav-item.nav-link:hover {
  margin-bottom: 20px;
  padding: 50px;
  height: 900px;
- width: 900px;
+ width: 1100px;
  border-style: double;
  border-radius: 100px;
  border-width: thick;
@@ -90,10 +86,17 @@ a.nav-item.nav-link:hover {
 }
 
 .search-aboutMe img {
- height: auto;
+ height: 400px;
  max-width: 251px;
  float: left
 }
+
+.linkedin img {
+  height: 125px;
+  max-width: 150px;
+  float: center;
+  padding-right: 10px;
+ }
 
 .search-aboutMe h2 {
  margin-bottom: 20px;
@@ -108,12 +111,12 @@ p {
  color: darkslategray;
 }
 
-/* Projects 01 | project01 - styling*/
+/* Projects 01 | Group project 01 - styling*/
 .search-project01 {
  margin-bottom: 20px;
  padding: 50px;
  height: 900px;
- width: 900px;
+ width: 1100px;
  border-style: double;
  border-radius: 100px;
  border-width: thick;
@@ -126,14 +129,9 @@ p {
  box-shadow: inset 0px 0px 40px #ff664a, 0 0 105px #ff664a;
 }
 
-/*project01 - image positioning [pulled from HTML]*/
-.float-right {
- float:left;
-}
-
 .search-project01 img {
- height: 519px;
- width: 396px;
+ height: 575px;
+ width: 880px;
 }
 
 .search-project01 h3 {
@@ -141,12 +139,19 @@ p {
  text-align: left;
 }
 
-/* Projects - right side bar| project02 - styling*/
+p2 {
+  font-size: 20px;
+  font-family: monospace;
+  text-align: center;
+  color: darkslategray;
+ }
+
+/* Project02 | First homework- styling*/
 .search-project02 {
  margin-bottom: 20px;
  padding: 50px;
- height: 300px;
- width: 900px;
+ height: 500px;
+ width: 1100px;
  border-style: double;
  border-radius: 100px;
  border-width: thick;
@@ -155,18 +160,15 @@ p {
  color: darkslategray;
 }
 
-/*project02 - image positioning [pulled from HTML]*/
-.float-right {
- float:right;
-}
-
 .search-project02:hover {
  box-shadow: inset 0px 0px 105px #ff664a, 0 0 105px #ff664a;
 }
 
 .search-project02 img {
- height: 150px;
- width: 150px;
+ height: 206px;
+ width: 386px;
+ float: right;
+ padding-left: 20px;
 }
 
 .search-project02 h4 {
@@ -175,12 +177,20 @@ p {
  text-align: left;
 }
 
-/* Projects - right side bar| project03 - styling*/
+p3 {
+  font-size: 20px;
+  font-family: monospace;
+  text-align: left;
+  text-justify: auto;
+  color: darkslategray;
+ }
+
+/* Project03 | Second homework - styling*/
 .search-project03 {
  margin-bottom: 20px;
  padding: 50px;
- height: 300px;
- width: 900px;
+ height: 500px;
+ width: 1100px;
  border-style: double;
  border-radius: 100px;
  border-width: thick;
@@ -189,37 +199,27 @@ p {
  color: darkslategray;
 }
 
-/*project02 - image positioning [pulled from HTML]*/
-.float-right {
- float:right;
-}
-
 .search-project03:hover {
  box-shadow: inset 0px 0px 105px #ff664a, 0 0 105px #ff664a;
 }
 
 .search-project03 img {
- height: 121px;
- width: 130px;
+  height: 300px;
+  width: 463px;
+  float: right;
+  padding-left: 20px;
 }
 
-.search-project03 h5 {
- margin-bottom: 20px;
- font-size: 30px;
- text-align: left;
-}
-
-/*side bar projects | text styling*/
-p2 {
- font-size: 20px;
- font-family: monospace;
- text-align: center;
- color: darkslategray;
-}
+p4 {
+  font-size: 20px;
+  font-family: monospace;
+  text-align: left;
+  text-justify: auto;
+  color: darkslategray;
+ }
 
 /*footer | styling*/
 .footer {
-
  height: 100px;
  background-color: slategrey;
  clear: both;
@@ -234,8 +234,6 @@ p2 {
 }
 
 /*media queries for smaller divs*/
-
-
 @media (max-width: 768px) {
  .aboutMe {
    position: static;
@@ -261,5 +259,20 @@ p2 {
 .projects03 {
    float: left;
    margin: 0px;
+ }
+}
+
+@media (max-width: 768px) {
+.navbar {
+  background-color: #263a4d;
+  animation-name: none;
+  align-content: center;
+  width: 100%;
+ }
+}  
+
+@media (max-width: 768px) {
+.footer {
+  background-color: #263a4d;
  }
 }
