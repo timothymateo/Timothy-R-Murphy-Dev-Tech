@@ -5,7 +5,7 @@
 <div id="header" align="center" text-size= "24">
 <h1>
   Hi there! My name is Timothy Murphy!
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="20px"/>
 </h1>
 </div>
 
