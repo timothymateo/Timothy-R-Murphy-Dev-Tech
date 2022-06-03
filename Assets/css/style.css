@@ -1,267 +1,265 @@
 /* Resets the box size of every element on the page */
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 
-/*animiation | color scheme*/ 
+/*animiation | color scheme*/
 @keyframes colors {
-   0%  {background-color: #263a4d;}
-  25%  {background-color: #324b64;}
-  50%  {background-color: #446685;}
-  75%  {background-color: #527aa0;}
-  100% {background-color: #6a9ccd;}
+  0%  {background-color: #263a4d;}
+ 25%  {background-color: #324b64;}
+ 50%  {background-color: #446685;}
+ 75%  {background-color: #527aa0;}
+ 100% {background-color: #6a9ccd;}
 }
 
 /* body | background animation & color*/
 body {
-  background-color:#263a4d;
+ background-color:#263a4d;
 }
 
+
+
 h1 {
-  color: white;
-  font-family: monospace;
-  font-size: xx-large;
+ color: white;
+ font-family: monospace;
+ font-size: 16px;
 
 }
 .navbar-brand:hover {
-  color: yellow;
+ color: yellow;
 }
 
 a.nav-item.nav-link {
-  color: white;
-  font-family: monospace;
-  font-size: large;
+ color: white;
+ font-family: monospace;
+ font-size: 24px;
 }
 a.nav-item.nav-link:hover {
-  color: #ff664a;
+ color: #ff664a;
 }
 
 /*header | Animation & Design*/
 .navbar {
-  animation-name: colors;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+ height: 100px;
+ animation-name: colors;
+ animation-duration: 8s;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
 }
 
 /* div container page placements */
 .aboutMe {
-  position: relative;
-  top: 50%;
-  left: 30%;
-  margin: auto;
-  margin: 0 auto;
+ position: block;
+ display: center;
+ margin-top: 30px;
+ align-items: center;
 }
 
 .projects01 {
-  float: left;
-  margin-left: 75px;
+ position: block;
+ display: center;
+ margin-left: 20px;
 }
 
 .projects02 {
-  display: flex;
-  flex-direction: right;
-  flex-shrink:inherit;
-  justify-content: right;
-  margin-right: 75px;
+ position: block;
+ display: center;
+ justify-content: right;
 }
 
 .projects03 {
-  display: flex;
-  flex-direction: right;
-  justify-content: right;
-  margin-right: 75px;
+ position: block;
+ display: center;
+ justify-content: right;
 }
 
 /* aboutMe | complete styling*/
+
 .search-aboutMe {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 700px;
-  width: 800px;
-  border-style: double;
-  border-radius: 100px;
-  border-width: thick;
-  font-family:  monospace;
-  background-color: #ffffff;
-  color: darkslategrey;
+ margin-bottom: 20px;
+ padding: 50px;
+ height: 900px;
+ width: 900px;
+ border-style: double;
+ border-radius: 100px;
+ border-width: thick;
+ font-family:  monospace;
+ background-color: #ffffff;
+ color: darkslategrey;
 }
 
 .search-aboutMe:hover {
-  box-shadow: inset 0px 0px 40px yellow, 0 0 105px yellow;
+ box-shadow: inset 0px 0px 40px yellow, 0 0 105px yellow;
 }
 
 .search-aboutMe img {
-  height: auto;
-  max-width: 251px;
-  float: left
+ height: auto;
+ max-width: 251px;
+ float: left
 }
 
 .search-aboutMe h2 {
-  margin-bottom: 20px;
-  font-size: 30px;
-  text-align: center;
+ margin-bottom: 20px;
+ font-size: 30px;
+ text-align: center;
 }
 
 p {
-  font-size: 22px;
-  font-family: monospace;
-  text-align: center;
-  color: darkslategray;
+ font-size: 22px;
+ font-family: monospace;
+ text-align: center;
+ color: darkslategray;
 }
 
-/* Projects - right side bar| project01 - styling*/
+/* Projects 01 | project01 - styling*/
 .search-project01 {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 700px;
-  width: 800px;
-  border-style: double;
-  border-radius: 100px;
-  border-width: thick;
-  font-family:  monospace;
-  background-color: #ffffff;
-  color: darkslategray;
+ margin-bottom: 20px;
+ padding: 50px;
+ height: 900px;
+ width: 900px;
+ border-style: double;
+ border-radius: 100px;
+ border-width: thick;
+ font-family:  monospace;
+ background-color: #ffffff;
+ color: darkslategray;
 }
 
 .search-project01:hover {
-  box-shadow: inset 0px 0px 40px #ff664a, 0 0 105px #ff664a;
+ box-shadow: inset 0px 0px 40px #ff664a, 0 0 105px #ff664a;
 }
 
 /*project01 - image positioning [pulled from HTML]*/
 .float-right {
-  float:left;
+ float:left;
 }
 
 .search-project01 img {
-  height: 519px;
-  width: 396px;
+ height: 519px;
+ width: 396px;
 }
 
 .search-project01 h3 {
-  font-size: 30px;
-  text-align: left;
+ font-size: 30px;
+ text-align: left;
 }
 
 /* Projects - right side bar| project02 - styling*/
 .search-project02 {
-  margin-bottom: 10px;
-  padding: 50px;
-  height: 250px;
-  width: 700px;
-  border-style: double;
-  border-radius: 100px;
-  border-width: thick;
-  font-family:  monospace;
-  background-color: #ffffff;
-  color: darkslategray;
+ margin-bottom: 20px;
+ padding: 50px;
+ height: 300px;
+ width: 900px;
+ border-style: double;
+ border-radius: 100px;
+ border-width: thick;
+ font-family:  monospace;
+ background-color: #ffffff;
+ color: darkslategray;
 }
 
 /*project02 - image positioning [pulled from HTML]*/
 .float-right {
-  float:right;
+ float:right;
 }
 
 .search-project02:hover {
-  box-shadow: inset 0px 0px 105px #ff664a, 0 0 105px #ff664a;
+ box-shadow: inset 0px 0px 105px #ff664a, 0 0 105px #ff664a;
 }
 
 .search-project02 img {
-  height: 150px;
-  width: 150px;
+ height: 150px;
+ width: 150px;
 }
 
 .search-project02 h4 {
-  margin-bottom: 20px;
-  font-size: 30px;
-  text-align: left;
+ margin-bottom: 20px;
+ font-size: 30px;
+ text-align: left;
 }
 
 /* Projects - right side bar| project03 - styling*/
 .search-project03 {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 250px;
-  width: 700px;
-  border-style: double;
-  border-radius: 100px;
-  border-width: thick;
-  font-family:  monospace;
-  background-color: #ffffff;
-  color: darkslategray;
+ margin-bottom: 20px;
+ padding: 50px;
+ height: 300px;
+ width: 900px;
+ border-style: double;
+ border-radius: 100px;
+ border-width: thick;
+ font-family:  monospace;
+ background-color: #ffffff;
+ color: darkslategray;
 }
 
 /*project02 - image positioning [pulled from HTML]*/
 .float-right {
-  float:right;
+ float:right;
 }
 
 .search-project03:hover {
-  box-shadow: inset 0px 0px 105px #ff664a, 0 0 105px #ff664a;
+ box-shadow: inset 0px 0px 105px #ff664a, 0 0 105px #ff664a;
 }
 
 .search-project03 img {
-  height: 121px;
-  width: 130px;
+ height: 121px;
+ width: 130px;
 }
 
 .search-project03 h5 {
-  margin-bottom: 20px;
-  font-size: 30px;
-  text-align: left;
+ margin-bottom: 20px;
+ font-size: 30px;
+ text-align: left;
 }
 
 /*side bar projects | text styling*/
 p2 {
-  font-size: 20px;
-  font-family: monospace;
-  text-align: center;
-  color: darkslategray;
+ font-size: 20px;
+ font-family: monospace;
+ text-align: center;
+ color: darkslategray;
 }
 
 /*footer | styling*/
 .footer {
-  padding: 30px;
-  clear: both;
-  font-family: monospace;
-  text-align: center;
+
+ height: 100px;
+ background-color: slategrey;
+ clear: both;
+ font-family: monospace;
+ text-align: center;
 }
 
 .footer h6 {
-  font-size: 20px;
-  color: white;
+ font-size: 32px;
+ align-items: center;
+ color: white;
 }
 
 /*media queries for smaller divs*/
 
 
 @media (max-width: 768px) {
-  .aboutMe {
-    position: static;
-    margin: 0px;
-  }
+ .aboutMe {
+   position: static;
+   margin: 0px;
+ }
 }
 
 @media (max-width: 768px) {
-  .projects01 {
-    float: left;
-    margin: 0px;
-  }
+ .projects01 {
+   float: left;
+   margin: 0px;
+ }
 }
 
 @media (max-width: 768px) {
-  .projects02 {
-    float: left;
-    margin: 0px;
-  }
+ .projects02 {
+   float: left;
+   margin: 0px;
+ }
 }
 
 @media (max-width: 768px) {
- .projects03 {
-    float: left;
-    margin: 0px;
-  }
+.projects03 {
+   float: left;
+   margin: 0px;
+ }
 }
-
