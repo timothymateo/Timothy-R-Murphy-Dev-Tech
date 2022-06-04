@@ -37,7 +37,8 @@ Working through my full-stack coursework and working through the busy season at 
 - Deployed Project: 🗣 https://timothymateo.github.io/Timothy-R-Murphy-Dev-Tech/
 - Technologies Used: HTML and CSS
 - About: This app has a group of references for employers who are interested in professional skills and capabilities. This is a portfolio to show my continued skills as a developer. 
-- License: MIT License | Copyright (c) 2022 Timothy Murphy
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
