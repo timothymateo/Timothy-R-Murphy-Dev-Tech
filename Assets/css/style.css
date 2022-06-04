@@ -233,6 +233,10 @@ p4 {
  color: white;
 }
 
+a {
+  color: #ff664a;
+}
+
 /*media queries for smaller divs*/
 @media (max-width: 768px) {
  .aboutMe {
