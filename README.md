@@ -34,7 +34,7 @@ Working through my full-stack coursework and working through the busy season at 
 ## 🔔 𝙼𝚢 𝙻𝚊𝚝𝚎𝚜𝚝 FSSD Project is my portfolio!  
 
 - Title: Portfolio of Timothy Murphy
-- Deployed Project: 🗣 https://github.com/timothymateo/Timothy-R-Murphy-Dev-Tech
+- Deployed Project: 🗣 https://timothymateo.github.io/Timothy-R-Murphy-Dev-Tech/
 - Technologies Used: HTML and CSS
 - About: This app has a group of references for employers who are interested in professional skills and capabilities. This is a portfolio to show my continued skills as a developer. 
 - License: MIT License | Copyright (c) 2022 Timothy Murphy
